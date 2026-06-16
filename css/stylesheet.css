@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("../images/caperucita.png");
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(8px);
+    transform: scale(1.1); 
+
+    z-index: -1;
+}
+body h1 {
+
+    border: 2px solid #333333;
+
+    background-color: #f8e79d;
+
+
+    padding: 20px;
+
+
+    border-radius: 8px;
+
+
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Garamond, serif;
+}
+body main {
+
+    border: 2px solid #333333;
+
+    background-color: #f8e79d;
+
+
+    padding: 20px;
+
+
+    border-radius: 8px;
+
+
+    max-width: 800px;
+    margin: 20px auto;
+    font-family:  Garamond, serif;
+}
+body nav {
+
+    border: 2px solid #333333;
+
+    background-color: #f8e79d;
+
+
+    padding: 20px;
+
+
+    border-radius: 8px;
+
+
+    max-width: 800px;
+    margin: 20px auto;
+    font-family:  Garamond, serif;
+}
+body footer {
+
+    border: 2px solid #333333;
+
+    background-color: #f8e79d;
+
+
+    padding: 20px;
+
+
+    border-radius: 8px;
+
+
+    max-width: 800px;
+    margin: 20px auto;
+    font-family:  Garamond, serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+
+    display: flex;
+    max-width: 800px;
+}
+
+nav li {
+    flex: 1;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+
+    padding: 15px;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+
+    font-family: Garamond, serif;
+    text-decoration: none;
+}
